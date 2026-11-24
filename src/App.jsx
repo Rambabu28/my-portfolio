@@ -1,6 +1,6 @@
 import React from 'react';
 import {Download, ArrowDown, ArrowUpRight, Github, Linkedin, Mail, MapPin, Code2, BriefcaseBusiness, GraduationCap, Sparkles, Menu } from 'lucide-react';
-
+import resume from "./resume/RambabuCv.pdf?url";
 const skills = ['HTML & CSS', 'JavaScript', 'React.js', 'Python', 'Java', 'Spring boot', 'MySQL', 'Git & GitHub'];
 
 const projects = [
@@ -17,7 +17,7 @@ function App() {
         <nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
         <a
           className="nav-cta"
-          href="./resume/RambabuCv.pdf"
+          href={resume}
           download="RambabuCv.pdf"
         >
           RESUME <Download size={16} />
