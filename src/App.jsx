@@ -32,7 +32,7 @@ function App() {
             </div>
             <p className="eyebrow">HELLO, I'M</p>
             <h1>Rambabu Pachipala<span className="accent">.</span></h1>
-            <h2>Developer <span className="muted">&</span> lifelong learner.</h2>
+            <h2>Full Stack Developer.</h2>
             <p className="hero-text">I build clean, useful and user-friendly digital experiences. I enjoy turning ideas into real projects and learning something new along the way.</p>
             <div className="hero-actions">
               <a className="button primary" href="#projects">Explore my work <ArrowUpRight size={17} /></a>
@@ -150,7 +150,7 @@ function App() {
               <div>
                 <span className="project-type">GRADUATION</span>
                 <h3>Bachelor's Degree</h3>
-                <p>BJR Govet Degree College | 2022</p>
+                <p>BJR Govet Degree College - 2022</p>
                 <small>CGPA: 8.37</small>
               </div>
             </div>
@@ -162,19 +162,19 @@ function App() {
               <div>
                 <span className="project-type">INTERMEDIATE</span>
                 <h3>Intermediate (12th)</h3>
-                <p>TSWRJC| 2019</p>
+                <p>TSWRJC - 2019</p>
                 <small>Percentage: 86%</small>
               </div>
             </div>
 
             <div className="education-card">
               <div className="edu-icon">
-                <GraduationCap />
+                <GraduationCap/>
               </div>
               <div>
                 <span className="project-type">SCHOOL EDUCATION</span>
                 <h3>SSC (10th Class)</h3>
-                <p>MJPTBCWRS | 2017</p>
+                <p>MJPTBCWRS - 2017</p>
                 <small>CGPA: 9.0</small>
               </div>
             </div>
